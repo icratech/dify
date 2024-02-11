@@ -117,7 +117,7 @@ services:
       RESEND_API_KEY: ''
       RESEND_API_URL: https://api.resend.com
       # The DSN for Sentry error reporting. If not set, Sentry error reporting will be disabled.
-      SENTRY_DSN: ''
+      SENTRY_DSN: 'https://a284c4a09cb1abc0e20fd7736e756a9d@o4506501096079360.ingest.sentry.io/4506556070166528'
       # The sample rate for Sentry events. Default: `1.0`
       SENTRY_TRACES_SAMPLE_RATE: 1.0
       # The sample rate for Sentry profiles. Default: `1.0`
@@ -219,7 +219,7 @@ services:
       # example: http://udify.app
       APP_API_URL: ''
       # The DSN for Sentry error reporting. If not set, Sentry error reporting will be disabled.
-      SENTRY_DSN: ''
+      SENTRY_DSN: 'https://a284c4a09cb1abc0e20fd7736e756a9d@o4506501096079360.ingest.sentry.io/4506556070166528'
     # uncomment to expose dify-web port to host
     # ports:
     #   - "3000:3000"
